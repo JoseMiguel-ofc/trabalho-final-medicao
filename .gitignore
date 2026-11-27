@@ -1,0 +1,4 @@
+# Dados brutos do Google Forms não vão para o repositório público (protocolo, seção 6)
+Práticas de desenvolvimento de software com e sem IA.csv
+*.zip
+__pycache__/

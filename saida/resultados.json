@@ -1,0 +1,159 @@
+{
+  "limpeza": {
+    "respostas_brutas": 50,
+    "sem_consentimento": 1,
+    "fora_da_populacao": 15,
+    "  F1_nao": 9,
+    "  F2_sim (da turma)": 6,
+    "falha_atencao": 2,
+    "straightlining": 0,
+    "duplicatas": 0,
+    "respostas_validas": 32
+  },
+  "descritiva": {
+    "M1": {
+      "k": 32,
+      "n": 32,
+      "p": 1.0,
+      "wilson": [
+        0.8928172849426366,
+        1.0
+      ],
+      "margem_pior_caso_pp": 17.324116139070416
+    }
+  },
+  "confiabilidade": {
+    "PROD": {
+      "alfa": 0.06789128800085938,
+      "regra": "itens isolados",
+      "itens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ]
+    },
+    "CONF": {
+      "alfa": 0.6708621774701069,
+      "regra": "escore sem item",
+      "removido": "C3",
+      "alfa_novo": 0.849458609849808,
+      "itens": [
+        "C1",
+        "C2"
+      ]
+    },
+    "VERIF": {
+      "alfa": 0.37779850746268645,
+      "regra": "itens isolados",
+      "itens": [
+        "V1",
+        "V2",
+        "V3"
+      ]
+    }
+  },
+  "H4": "inviável",
+  "familia": [
+    {
+      "hip": "H2",
+      "teste": "KW P1 × faixa",
+      "est": 0.8483333333333372,
+      "p": 0.8378747717292163,
+      "efeito": "ε²=0.027",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "Spearman anos × P1",
+      "est": 0.03233996173755688,
+      "p": 0.8605220572963249,
+      "efeito": "ρ=0.03",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "KW P2 × faixa",
+      "est": 2.38461538461539,
+      "p": 0.49650488907250756,
+      "efeito": "ε²=0.077",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "Spearman anos × P2",
+      "est": 0.3433533964937711,
+      "p": 0.054357892743471324,
+      "efeito": "ρ=0.34",
+      "p_holm": 0.5979368201781846,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "KW P3 × faixa",
+      "est": 4.868644123012768,
+      "p": 0.18167225808161871,
+      "efeito": "ε²=0.157",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "Spearman anos × P3",
+      "est": -0.2406919246200822,
+      "p": 0.18451035578776157,
+      "efeito": "ρ=-0.24",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "KW P4 × faixa",
+      "est": 1.4947589098532614,
+      "p": 0.6834804984787697,
+      "efeito": "ε²=0.048",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H2",
+      "teste": "Spearman anos × P4",
+      "est": 0.26081571877101856,
+      "p": 0.14936206556990944,
+      "efeito": "ρ=0.26",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H3",
+      "teste": "Spearman CONF (sem C3) × V1",
+      "est": -0.004186673258717065,
+      "p": 0.981856720861359,
+      "efeito": "ρ=-0.00",
+      "p_holm": 1.0,
+      "rejeita": false
+    },
+    {
+      "hip": "H3",
+      "teste": "Spearman CONF (sem C3) × V2",
+      "est": -0.32830857005244796,
+      "p": 0.06657557848538463,
+      "efeito": "ρ=-0.33",
+      "p_holm": 0.6657557848538463,
+      "rejeita": false
+    },
+    {
+      "hip": "H3",
+      "teste": "Spearman CONF (sem C3) × V3",
+      "est": -0.19499921202184856,
+      "p": 0.2848427142409178,
+      "efeito": "ρ=-0.19",
+      "p_holm": 1.0,
+      "rejeita": false
+    }
+  ],
+  "poder_rho_minimo": 0.4778862378869856
+}

@@ -1,0 +1,164 @@
+======================================================================
+5.1 LIMPEZA E DESCARTES
+======================================================================
+  respostas_brutas               50
+  sem_consentimento               1
+  fora_da_populacao              15
+    F1_nao                        9
+    F2_sim (da turma)             6
+  falha_atencao                   2
+  straightlining                  0
+  duplicatas                      0
+  respostas_validas              32
+  Período das respostas: 25/11/2026 11:47 a 26/11/2026 21:15
+
+======================================================================
+5.2 DESCRITIVA
+======================================================================
+
+Papel (D2), n = 32
+  Full-stack                                16   50.0%
+  Dados                                      5   15.6%
+  Back-end                                   3    9.4%
+  Mobile                                     2    6.2%
+  Gestao                                     1    3.1%
+  Gestão de T.I                              1    3.1%
+  QA / Testes                                1    3.1%
+  Front-end                                  1    3.1%
+  DevOps / Infraestrutura                    1    3.1%
+  Gerente de ti                              1    3.1%
+
+Porte (D3), n = 32
+  1000 pessoas ou mais                      14   43.8%
+  50 a 249 pessoas                           9   28.1%
+  250 a 999 pessoas                          5   15.6%
+  1 a 49 pessoas                             4   12.5%
+
+Tipo de empresa (D4), n = 32
+  Banco ou financeira                       10   31.2%
+  Empresa de produto de software             8   25.0%
+  Consultoria / software house               5   15.6%
+  Startup                                    4   12.5%
+  Setor público                              2    6.2%
+  Construtora                                1    3.1%
+  Companhia aérea                            1    3.1%
+  Chatbot                                    1    3.1%
+
+Política de IA (D5), n = 32
+  Incentiva o uso                           19   59.4%
+  Permite o uso                              9   28.1%
+  Não há política definida                   4   12.5%
+
+Experiência (D1): mediana 3 anos, IIQ 2–5, mín 0, máx 26
+  Faixas: ≤2: 10, 3–5: 15, 6–10: 5, >10: 2
+
+QP1 — M1 uso de IA nos últimos 30 dias: 32/32 = 100.0% (margem do protocolo ±0.0 p.p.; IC 95% de Wilson 89.3%–100.0%)
+  Margem de erro no pior caso (p = 0,5) com n = 32: ±17.3 p.p.
+
+M2 frequência (usuários, n = 32)
+  Menos de 1 vez por semana        1    3.1% ± 6.0 p.p.
+  1 a 2 vezes por semana           3    9.4% ±10.1 p.p.
+  Quase todos os dias              6   18.8% ±13.5 p.p.
+  Várias vezes ao dia             22   68.8% ±16.1 p.p.
+
+Ferramentas (U3, múltipla escolha, % sobre 32 usuários)
+  Claude                                    24   75.0%
+  ChatGPT                                   14   43.8%
+  Gemini                                    11   34.4%
+  Cursor                                     9   28.1%
+  GitHub Copilot                             5   15.6%
+  Kiro                                       2    6.2%
+  Devin                                      1    3.1%
+  Opencode                                   1    3.1%
+
+M3 tarefas (U4, múltipla escolha, % sobre 32 usuários)
+  Escrever código novo                      25   78.1%
+  Escrever documentação                     24   75.0%
+  Revisão de código                         22   68.8%
+  Entender código existente                 21   65.6%
+  Depurar erros                             20   62.5%
+  Escrever testes                           18   56.2%
+  Refatorar código                          16   50.0%
+
+Itens Likert (usuários; invertidos já recodificados como 6 − x)
+  item    n  mediana       IIQ   1    2    3    4    5
+  P1     32      5.0   4.8–5.0    0    0    1    7   24
+  P2     32      5.0   5.0–5.0    0    0    0    6   26
+  P3     32      3.5   2.8–4.0    1    7    8   10    6
+  P4     32      3.0   2.0–4.0    3    7   11    8    3
+  C1     32      3.0   3.0–4.0    0    7   13   10    2
+  C2     32      3.0   2.0–4.0    0   12   10    8    2
+  C3     32      1.0   1.0–3.0   17    6    7    2    0
+  V1     32      4.0   3.0–4.0    0    6    5   15    6
+  V2     32      4.0   2.0–5.0    3    6    3    7   13
+  V3     32      5.0   4.0–5.0    0    3    3    7   19
+
+Confiabilidade (alfa de Cronbach, aceitável ≥ 0,70)
+  PROD: α = 0.07 (n = 32) | α sem cada item: P1 -0.19, P2 0.05, P3 0.31, P4 0.08
+    → nenhum item eleva α a 0,70: itens analisados isoladamente
+  CONF: α = 0.67 (n = 32) | α sem cada item: C1 0.43, C2 0.38, C3 0.85
+    → DESVIO: C3 removido (α sobe para 0.85); escore = média de ['C1', 'C2']
+  VERIF: α = 0.38 (n = 32) | α sem cada item: V1 0.33, V2 0.47, V3 0.09
+    → nenhum item eleva α a 0,70: itens analisados isoladamente
+
+======================================================================
+5.3 TESTES CONFIRMATÓRIOS (bilaterais, α = 0,05, Holm-Bonferroni na família)
+======================================================================
+
+QP2 / H2 — produtividade percebida × experiência
+  P1: Kruskal-Wallis H = 0.85, p = 0.838, ε² = 0.027 | ≤2: n=10, Md=5.00; 3–5: n=15, Md=5.00; 6–10: n=5, Md=5.00; >10: n=2, Md=4.50
+  P1: Spearman anos × P1: ρ = 0.03, p = 0.861
+  P2: Kruskal-Wallis H = 2.38, p = 0.497, ε² = 0.077 | ≤2: n=10, Md=5.00; 3–5: n=15, Md=5.00; 6–10: n=5, Md=5.00; >10: n=2, Md=5.00
+  P2: Spearman anos × P2: ρ = 0.34, p = 0.054
+  P3: Kruskal-Wallis H = 4.87, p = 0.182, ε² = 0.157 | ≤2: n=10, Md=3.50; 3–5: n=15, Md=4.00; 6–10: n=5, Md=2.00; >10: n=2, Md=3.50
+  P3: Spearman anos × P3: ρ = -0.24, p = 0.185
+  P4: Kruskal-Wallis H = 1.49, p = 0.683, ε² = 0.048 | ≤2: n=10, Md=3.00; 3–5: n=15, Md=3.00; 6–10: n=5, Md=3.00; >10: n=2, Md=3.50
+  P4: Spearman anos × P4: ρ = 0.26, p = 0.149
+
+QP3 / H3 — confiança × verificação (usuários)
+  CONF (sem C3) × V1: ρ = -0.00, p = 0.982, n = 32
+  CONF (sem C3) × V2: ρ = -0.33, p = 0.067, n = 32
+  CONF (sem C3) × V3: ρ = -0.19, p = 0.285, n = 32
+
+QP4 / H4a, H4b — uso × política da empresa / porte
+  INVIÁVEL: U1 é constante entre os válidos (Sim = 32). χ² e Fisher exigem variação em ambas as variáveis. Tabelas apenas descritivas:
+  D5: Incentiva o uso: 19, Permite o uso: 9, Não há política definida: 4
+  D3: 1000 pessoas ou mais: 14, 50 a 249 pessoas: 9, 250 a 999 pessoas: 5, 1 a 49 pessoas: 4
+
+Correção de Holm-Bonferroni (família com 11 testes)
+  hip teste                                             efeito       p   p Holm  decisão
+  H2  KW P1 × faixa                                   ε²=0.027   0.838    1.000  não rejeita H0
+  H2  Spearman anos × P1                                ρ=0.03   0.861    1.000  não rejeita H0
+  H2  KW P2 × faixa                                   ε²=0.077   0.497    1.000  não rejeita H0
+  H2  Spearman anos × P2                                ρ=0.34   0.054    0.598  não rejeita H0
+  H2  KW P3 × faixa                                   ε²=0.157   0.182    1.000  não rejeita H0
+  H2  Spearman anos × P3                               ρ=-0.24   0.185    1.000  não rejeita H0
+  H2  KW P4 × faixa                                   ε²=0.048   0.683    1.000  não rejeita H0
+  H2  Spearman anos × P4                                ρ=0.26   0.149    1.000  não rejeita H0
+  H3  Spearman CONF (sem C3) × V1                      ρ=-0.00   0.982    1.000  não rejeita H0
+  H3  Spearman CONF (sem C3) × V2                      ρ=-0.33   0.067    0.666  não rejeita H0
+  H3  Spearman CONF (sem C3) × V3                      ρ=-0.19   0.285    1.000  não rejeita H0
+
+======================================================================
+ANÁLISE DE SENSIBILIDADE (não confirmatória): construtos como pré-registrados
+======================================================================
+  PROD (4 itens) × faixa: H = 2.11, p = 0.550
+  Spearman anos × PROD: ρ = 0.08, p = 0.651
+  Spearman CONF (3 itens, com C3) × VERIF (3 itens): ρ = -0.43, p = 0.015, n = 32
+  ATENÇÃO: estes escores violam a regra de confiabilidade (5.2) e não sustentam conclusões.
+
+Proxy de não resposta (exploratório): primeiros 25% × últimos 25% dos respondentes
+  P1: Md primeiros 5.0 × últimos 4.5, Mann-Whitney p = 0.030
+  P2: Md primeiros 5.0 × últimos 5.0, Mann-Whitney p = 0.382
+  P3: Md primeiros 3.5 × últimos 2.5, Mann-Whitney p = 0.412
+  P4: Md primeiros 3.0 × últimos 3.0, Mann-Whitney p = 0.496
+  C1: Md primeiros 3.0 × últimos 3.5, Mann-Whitney p = 0.659
+  C2: Md primeiros 3.0 × últimos 3.5, Mann-Whitney p = 0.408
+  C3: Md primeiros 1.5 × últimos 1.5, Mann-Whitney p = 0.864
+  V1: Md primeiros 4.0 × últimos 4.0, Mann-Whitney p = 0.209
+  V2: Md primeiros 5.0 × últimos 4.5, Mann-Whitney p = 0.770
+  V3: Md primeiros 5.0 × últimos 5.0, Mann-Whitney p = 0.654
+
+Poder: com n = 32, o menor |ρ| detectável com 80% de poder é 0.48 (o protocolo planejava detectar ρ = 0,30 com n ≈ 85).
+
+Respostas abertas A1 válidas para codificação: 12 (saida/codificacao_A1.csv)

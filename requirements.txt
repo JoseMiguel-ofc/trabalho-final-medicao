@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+pingouin>=0.5
+scikit-posthocs>=0.9
