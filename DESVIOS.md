@@ -12,7 +12,6 @@ Nenhum desvio altera os critérios de exclusão, os testes escolhidos ou o níve
 | D4 | Escores PROD e VERIF | Itens analisados isoladamente | Aplicação literal da regra da seção 5.2: nenhuma remoção leva α a 0,70 (máx. 0,31 e 0,47). |
 | D5 | Família de Holm com 5 testes | Família com 11 testes | Consequência de D2–D4: cada item isolado gera seu próprio teste. Ampliar a família é a opção conservadora e mantém o controle do erro tipo I. |
 | D6 | Pré-teste com 3–5 desenvolvedores da população-alvo, de fora da turma | 4 desenvolvedores, dos quais 3 são colegas da turma que trabalham como desenvolvedores (identificados pela F2). Todos usam IA, então o caminho de não usuários (N1) não foi testado por respondentes | Falta de tempo para recrutar pessoas de fora antes da coleta. Os participantes do pré-teste responderam a um formulário separado e não entram na amostra. |
-| D7 | Coleta de 13/11 a 27/11/2026 | Coleta efetiva de 25/11 a 27/11/2026 (respostas válidas entre 25/11 e 26/11) | O formulário só ficou pronto em 24/11, e o pré-teste (24/11 a 25/11) precisava terminar antes da coleta. A data-limite de 27/11 foi mantida. A janela de 3 dias, em vez de 15, é a causa mais provável de D1. |
 
 D3 e D4 decorrem de uma regra escrita no protocolo antes da coleta. A análise de sensibilidade com os escores originais (CONF com C3 × VERIF: ρ = −0,43, p = 0,015) é reportada apenas para transparência e não é resultado confirmatório.
 

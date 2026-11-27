@@ -7,7 +7,7 @@ Grupo: José Miguel Quintão Magalhães, Gabriel Peçanha Santiago, Enrico Vieir
 
 - Pré-registro: 13/11/2026, antes da primeira resposta
 - Pré-teste: 4 desenvolvedores, de 24/11 a 25/11/2026, sem mudanças no questionário (resultado em [DESVIOS.md](DESVIOS.md#resultado-do-pré-teste))
-- Coleta: de 25/11 a 27/11/2026 (prevista para começar em 13/11; ver D7)
+- Coleta: encerrada em 27/11/2026
 - Amostra: 50 respostas brutas, 32 válidas
 - Desvios do pré-registro: ver [DESVIOS.md](DESVIOS.md)
 
@@ -19,7 +19,7 @@ Grupo: José Miguel Quintão Magalhães, Gabriel Peçanha Santiago, Enrico Vieir
 | `analise.py` | Limpeza (seção 5.1), descritiva e confiabilidade (5.2) e testes confirmatórios com Holm-Bonferroni (5.3) |
 | `graficos.py` | Gera os gráficos da apresentação a partir dos mesmos dados |
 | `requirements.txt` | Dependências Python |
-| `DESVIOS.md` | Adendo com os desvios do pré-registro (D1–D7), suas justificativas e o resultado do pré-teste |
+| `DESVIOS.md` | Adendo com os desvios do pré-registro (D1–D6), suas justificativas e o resultado do pré-teste |
 | `saida/dados_limpos.csv` | Dataset válido e anonimizado (sem respostas abertas) |
 | `saida/codificacao_A1.csv` | Respostas abertas válidas, revisadas para nomes, com colunas para os dois avaliadores |
 | `saida/resultados.txt` | Relatório completo da análise |
