@@ -11,7 +11,7 @@ Nenhum desvio altera os critérios de exclusão, os testes escolhidos ou o níve
 | D3 | Escore CONF com C1–C3 | C3 removido; CONF = média de C1 e C2 | Aplicação literal da regra da seção 5.2: α = 0,67 sobe para 0,85 sem C3. |
 | D4 | Escores PROD e VERIF | Itens analisados isoladamente | Aplicação literal da regra da seção 5.2: nenhuma remoção leva α a 0,70 (máx. 0,31 e 0,47). |
 | D5 | Família de Holm com 5 testes | Família com 11 testes | Consequência de D2–D4: cada item isolado gera seu próprio teste. Ampliar a família é a opção conservadora e mantém o controle do erro tipo I. |
-| D6 | Pré-teste com 3–5 desenvolvedores da população-alvo, de fora da turma | 4 desenvolvedores, dos quais 3 são colegas da turma que trabalham como desenvolvedores (identificados pela F2). Todos usam IA, então o caminho de não usuários (N1) não foi testado por respondentes | Falta de tempo para recrutar pessoas de fora antes da coleta. Os participantes do pré-teste responderam a um formulário separado e não entram na amostra. |
+| D6 | Pré-teste com 3–5 desenvolvedores da população-alvo | 4 desenvolvedores, dos quais 3 são colegas da turma que trabalham como desenvolvedores (identificados pela F2). Todos usam IA, então o caminho de não usuários (N1) não foi testado por respondentes | Falta de tempo para recrutar pessoas de fora antes da coleta. Os participantes do pré-teste responderam a um formulário separado e não entram na amostra. |
 
 D3 e D4 decorrem de uma regra escrita no protocolo antes da coleta. A análise de sensibilidade com os escores originais (CONF com C3 × VERIF: ρ = −0,43, p = 0,015) é reportada apenas para transparência e não é resultado confirmatório.
 
